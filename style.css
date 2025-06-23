@@ -1,0 +1,87 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #ced ;
+	height: 0vh;
+	justify-self: center;
+}
+
+.head {
+	display: block;
+	text-align: center;
+}
+.container {
+	display: flex;
+	gap: 30px;
+}
+
+.container-1 {
+	display: flex;
+	flex-direction: column;
+	width: 30rem;
+	justify-self: center;
+	justify-content: center;
+	align-items: center;
+	
+	
+
+
+}
+.incontainer {
+	height: 40vh;
+	width: 30rem;
+	align-items: center;
+	align-self: center;
+	justify-self: center;
+	justify-content: center;
+	justify-items: center;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 30px;
+}
+.new-posts {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	
+}
+
+
+#in2 {
+	margin-top: 10px;
+}
+
+.container-2{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	height: 70vh;
+	width: 30rem;
+	justify-self: center;
+	justify-content: center;
+	align-items: center;
+
+}
+.btn {
+	border-radius: 5px;
+	border-style: none;
+	background-color: rgb(162, 216, 213);
+	padding: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	box-shadow: 5px 5px 10px rgb(51, 50, 50);
+	background-color: rgb(233, 173, 173);
+	transition: ease-in-out;
+	-o-transition-duration: 20ms;
+}
+
+.input {
+	border-radius: 5px;
+	border-style: none;
+	background-color: lightgrey;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
